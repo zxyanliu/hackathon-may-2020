@@ -20,8 +20,8 @@ Documentation management involves work such as periodic check of broken links in
 
 |Skill|Owner|
 |---|---|
-|Documentation VA|Lu/Yan|
-|Code link checker|Wenyi|
+|Documentation VA|Lu Han/ Yan Liu|
+|Code link checker|Wenyi Luo|
 |Broken link checker|---|
 
 ## Implementation
