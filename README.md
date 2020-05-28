@@ -20,8 +20,8 @@ Documentation management involves work such as periodic check of broken links in
 
 |Skill|Owner|
 |---|---|
-|Documentation VA|---|
-|Code link checker|---|
+|Documentation VA|Lu Han / Yan Liu|
+|Code link checker|Wenyi Luo|
 |Broken link checker|---|
 
 ## Implementation
@@ -45,7 +45,7 @@ Documentation management involves work such as periodic check of broken links in
 1. Make a change in the code in sample #47 in the forked BotBuilder-Samples' repository. 
 2. The article that reference code from #47 is this article and the author is zxyanliu. 
 3. The writer checks her email to read the notification. 
-4. The writer creates a PR so that can view the code changes on the live side (HTMl view). 
+4. The writer creates a PR so that can view the code changes on the live side (HTML view). 
 5. The writer fix the code lines, and create another PR to view the changes are updated. 
 
 ## Known issues
