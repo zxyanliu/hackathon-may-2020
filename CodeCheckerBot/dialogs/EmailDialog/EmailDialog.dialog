@@ -1,0 +1,43 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "JCewdK",
+    "name": "EmailDialog"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "id": "TeyKHT"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "MXf9ti"
+          },
+          "activity": "${SendActivity_MXf9ti()}"
+        },
+        {
+          "$kind": "Microsoft.BeginSkill",
+          "$designer": {
+            "id": "9iST2P"
+          },
+          "activityProcessed": true,
+          "botId": "=settings.MicrosoftAppId",
+          "skillHostEndpoint": "=settings.skillHostEndpoint",
+          "connectionName": "=settings.connectionName",
+          "id": "https://bfemailskill.azurewebsites.net/manifest/manifest-1.0.json",
+          "skillEndpoint": "https://bfemailskill.azurewebsites.net/api/messages",
+          "skillAppId": "b522fc85-bd55-4c4f-ba8d-c7063113338c",
+          "resultProperty": "dialog.result",
+          "activity": "${BeginSkill_Activity_9iST2P()}"
+        }
+      ]
+    }
+  ],
+  "generator": "EmailDialog.lg"
+}
